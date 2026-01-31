@@ -240,3 +240,4 @@ def main_app():
 2. **Comando de Treino**:
    ```bash
    yolo task=detect mode=train model=yolov8s.pt data=industrial_safety.yaml epochs=100 imgsz=640 device=0
+"""
