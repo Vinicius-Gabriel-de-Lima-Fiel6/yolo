@@ -4,4 +4,5 @@ opencv-python-headless
 numpy
 torch
 torchvision
+pillow
 requests
