@@ -266,8 +266,10 @@ def main():
 ### 🧪 GUIA DE TREINAMENTO E ESCALABILIDADE (Sênior)
 
 #### 1. Como treinar novos modelos para EPIs:
+
 Para detectar itens específicos (Jaleco, Máscara, Luvas), siga este pipeline:
 1. **Dataset:** Utilize ferramentas como CVAT ou Roboflow. O dataset deve conter pelo menos 1500 imagens por classe em ambiente real.
 2. **Custom Weights:**
    ```bash
+"""
    yolo task=detect mode=train model=yolov8m.pt data=safety_config.yaml epochs=100 imgsz=640 device=0
