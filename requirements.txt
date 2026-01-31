@@ -4,8 +4,5 @@ opencv-python-headless
 numpy
 torch
 torchvision
-torchaudio
-pandas
 pillow
 requests
-cv2
