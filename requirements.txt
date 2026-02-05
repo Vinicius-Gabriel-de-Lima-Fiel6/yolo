@@ -1,8 +1,5 @@
 ultralytics
 streamlit
+streamlit-webrtc
 opencv-python-headless
-numpy
-torch
-torchvision
-pillow
-requests
+pynput
